@@ -1,0 +1,112 @@
+.first {
+    background: url("Images/orange.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-radius: 60px;
+    background-size: cover;
+}
+
+.second {
+    background: url("Images/pink.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-radius: 60px;
+    background-size: cover;
+}
+
+.third {
+    background: url("Images/yellow.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-radius: 60px;
+    background-size: cover;
+}
+
+.jumbotron:hover {
+    /* .hvr-skew { */
+        /* display: inline-block;
+        vertical-align: middle; */
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+      }
+      .jumbotron:hover, .jumbotron:focus, .jumbotron:active {
+        -webkit-transform: skew(-10deg);
+        transform: skew(-10deg);
+      }
+
+section#jumbotron_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+div.jumbotron {
+    align-self: center;
+}
+.display-4 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.navigation {
+    background-color: transparent;
+    padding: 3vh;
+    margin-bottom: 2em;
+    width: 100%;
+    display: block;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 18px;
+    margin: 0px;
+    box-shadow: 0 -3px 10px rgba(88, 88, 88, 0.5);
+}
+
+.inline-block ul li{
+    margin-left: 5vw;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+.footer a:link { text-decoration: none;
+    color: black; 
+}
+.footer a:visited { text-decoration: none; 
+    color: black;}
+.footer a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #00ade6;
+    text-decoration-thickness: 5px;
+    }
+.footer a:active { text-decoration: none; 
+}

@@ -1,0 +1,104 @@
+/* .btn {
+    height: auto;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 14px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: all 0.2s ease; 
+    background: yellow;
+    color: #fff;
+    transition: all 0.2s ease;
+} */
+
+/* button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.2s ease; 
+}
+button:hover {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+.navigation {
+    background-color: transparent;
+    padding: 3vh;
+    margin-bottom: 2em;
+    width: 100%;
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Roboto Condensed", serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  button.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100px;  
+    transition: all 0.2s ease; 
+}
+button:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 18px;
+    margin: 0px;
+    box-shadow: 0 -3px 10px rgba(88, 88, 88, 0.5);
+}
+
+.inline-block ul li{
+    margin-left: 5vw;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+a:link { text-decoration: none;
+    color: black; 
+}
+a:visited { text-decoration: none; 
+    color: black;}
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #00ade6;
+    text-decoration-thickness: 5px;
+    }
+a:active { text-decoration: none; 
+}
