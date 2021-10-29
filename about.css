@@ -1,34 +1,3 @@
-/* .btn {
-    height: auto;
-    display: inline-block;
-    border: 2px solid black;
-    background-color: white;
-    font-size: 14px;
-    font-size: 0.8125rem;
-    font-weight: 400;
-    padding: 1rem 2.5rem;
-    text-transform: uppercase;
-    border-radius: 50px;
-    transition: all 0.2s ease; 
-    background: yellow;
-    color: #fff;
-    transition: all 0.2s ease;
-} */
-
-/* button {
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 100px;
-    transition: all 0.2s ease; 
-}
-button:hover {
-    background-color: #04AA6D;
-    color: white;
-  } */
 
 .navigation {
     background-color: transparent;
@@ -46,20 +15,59 @@ body {
     color: rgba(0, 0, 0, 0.65);
   }
 
-  button.btn {
+span.h6 {
+      color:#224AE0;
+      font-weight: 700;
+      font-size: 18px;
+  }
+
+h2.content-title {
+      color: black;
+      font-weight: 700;
+      font-size: 45px;
+  }
+
+p.mb-5{
+      color: black;
+  }
+
+span.text-md {
+      color: #224AE0;
+      font-size: 36px; 
+      font-weight: 700;
+  }
+
+h3.mb-3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+button.btn {
     border: 2px solid black;
     background-color: white;
     color: black;
     padding: 14px 28px;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 100px;  
     transition: all 0.2s ease; 
 }
 button:hover {
-    background-color: #04AA6D;
     color: white;
+    background-image: linear-gradient(to right, #224AE0 , #DA379F);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
+
+img.img-fluid {
+    height: 350px;
+}
+
+section.about-info {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 .footer {
     background-color: rgb(255, 255, 255);
