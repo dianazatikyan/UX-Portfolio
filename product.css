@@ -1,5 +1,5 @@
 .first {
-    background: url("Images/orange.png") no-repeat center center; 
+    background: url("Images/berkeley.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -9,7 +9,7 @@
 }
 
 .second {
-    background: url("Images/pink.png") no-repeat center center; 
+    background: url("Images/trip.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -19,7 +19,7 @@
 }
 
 .third {
-    background: url("Images/yellow.png") no-repeat center center; 
+    background: url("Images/food.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -106,7 +106,7 @@ div.jumbotron {
     color: black;}
 .footer a:hover {
     text-decoration-line: underline;
-    text-decoration-color: #00ade6;
+    text-decoration-color: #224AE0;
     text-decoration-thickness: 5px;
     }
 .footer a:active { text-decoration: none; 
