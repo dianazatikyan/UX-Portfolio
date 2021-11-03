@@ -1,55 +1,54 @@
 .first {
-    background: url("Images/berkeley.png") no-repeat center center; 
+    background: url("Images/first.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     border-radius: 60px;
     background-size: cover;
+    box-shadow: 2px 2px 8px #888888;
 }
 
 .second {
-    background: url("Images/trip.png") no-repeat center center; 
+    background: url("Images/second.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     border-radius: 60px;
     background-size: cover;
+    box-shadow: 2px 2px 8px #888888;
 }
 
 .third {
-    background: url("Images/food.png") no-repeat center center; 
+    background: url("Images/third.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     border-radius: 60px;
     background-size: cover;
+    box-shadow: 2px 2px 8px #888888;
 }
 
 .jumbotron:hover {
-    /* .hvr-skew { */
-        /* display: inline-block;
-        vertical-align: middle; */
         -webkit-transform: perspective(1px) translateZ(0);
         transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        box-shadow: 2px 2px 8px #888888;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
         -webkit-transition-property: transform;
         transition-property: transform;
       }
       .jumbotron:hover, .jumbotron:focus, .jumbotron:active {
-        -webkit-transform: skew(-10deg);
-        transform: skew(-10deg);
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
       }
 
 section#jumbotron_container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* margin: 0 auto; */
     margin-bottom: 100px;
 }
 
