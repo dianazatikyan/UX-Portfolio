@@ -1,6 +1,7 @@
 
 strong.number {
-    font-size: 12px !important;
+    font-size: 20px !important;
+    text-transform: none;
 }
 /* .navigation {
     background-color: transparent;
@@ -9,6 +10,24 @@ strong.number {
     width: 100%;
     display: block;
 } */
+
+button.btn {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 100px;  
+    transition: all 0.2s ease; 
+}
+button.btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-image: linear-gradient(to right, #224AE0 , #DA379F);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
 
 .navigation {
     position: fixed;
@@ -33,22 +52,7 @@ strong.number {
     margin: 0px;
     box-shadow: 0 -3px 10px rgba(88, 88, 88, 0.5);
 }
-button.btn {
-    border: 2px solid black;
-    background-color: transparent;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 100px;  
-    transition: all 0.2s ease; 
-}
-button:hover {
-    color: white;
-    background-image: linear-gradient(to right, #224AE0 , #DA379F);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
+
 .inline-block ul li{
     margin-left: 5vw;
 }
@@ -75,86 +79,6 @@ button:hover {
     }
 .footer a:active { text-decoration: none;}
 
-/* .hero-wrap {
-    width: 100%;
-    height: 900px;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 0; }
-
-    .hero-wrap .overlay {
-      z-index: -1;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 50%;
-      bottom: 0;
-      content: '';
-      opacity: .5;
-      background: #224AE0; }
-    @media (max-width: 991.98px) {
-      .hero-wrap {
-        background-position: center center !important; } }
-    .hero-wrap.hero-wrap-2 {
-      height: 400px;
-      position: relative;
-      background-position: center center !important; }
-      .hero-wrap.hero-wrap-2 .overlay {
-        width: 100%;
-        opacity: .3;
-        background: #224AE0 !important;
-        z-index: -1; }
-      .hero-wrap.hero-wrap-2 .slider-text {
-        height: 400px; }
-    .hero-wrap .slider-text {
-      height: 900px;
-      color: rgba(255, 255, 255, 0.8);
-      z-index: 3; }
-      .hero-wrap .slider-text .subheading {
-        font-size: 24px;
-        color: rgba(255, 255, 255, 0.9);
-        display: inline-block;
-        margin-bottom: 10px; }
-      .hero-wrap .slider-text h1 {
-        font-size: 60px;
-        color: #fff;
-        line-height: 1.2;
-        font-weight: 600; }
-        @media (max-width: 991.98px) {
-          .hero-wrap .slider-text h1 {
-            font-size: 36px; } }
-      .hero-wrap .slider-text p {
-        font-weight: 400; }
-        .hero-wrap .slider-text p strong {
-          font-weight: 700; }
-          .hero-wrap .slider-text p strong a {
-            color: #000000; }
-      .hero-wrap .slider-text .breadcrumbs {
-        font-size: 14px;
-        margin-bottom: 20px;
-        z-index: 99;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.8); }
-        .hero-wrap .slider-text .breadcrumbs span {
-          color: rgba(255, 255, 255, 0.8); }
-          .hero-wrap .slider-text .breadcrumbs span i {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 12px; }
-          .hero-wrap .slider-text .breadcrumbs span a {
-            color: rgba(255, 255, 255, 0.8); }
-            .hero-wrap .slider-text .breadcrumbs span a:hover, .hero-wrap .slider-text .breadcrumbs span a:focus {
-              color: #d9bf77; }
-              .hero-wrap .slider-text .breadcrumbs span a:hover i, .hero-wrap .slider-text .breadcrumbs span a:focus i {
-                color: #d9bf77; }
-      .hero-wrap .slider-text .bread {
-        font-weight: 600;
-        color: #fff;
-        font-size: 44px;
-        text-transform: capitalize; } */
-  
   .slider-hero {
     position: relative; }
     .slider-hero .work {
@@ -246,57 +170,6 @@ button:hover {
   .bg-secondary {
     background: #d9bf77; }
   
-  /* .btn {
-    padding: 9px 12px;
-    cursor: pointer;
-    border-radius: 0;
-    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-    font-size: 11px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-    .btn:hover, .btn:active, .btn:focus {
-      outline: none; }
-    .btn.btn-primary {
-      background: #d9bf77 !important;
-      border: 1px solid #d9bf77 !important;
-      color: #000000 !important; }
-      .btn.btn-primary span {
-        color: #000000 !important;
-        font-size: 16px;
-        line-height: 1;
-        margin-left: 10px; }
-      .btn.btn-primary:hover {
-        border: 1px solid #d9bf77;
-        background: transparent;
-        color: #d9bf77; }
-      .btn.btn-primary.btn-outline-primary {
-        border: 1px solid #d9bf77 !important;
-        background: transparent !important;
-        color: #d9bf77 !important; }
-        .btn.btn-primary.btn-outline-primary:hover {
-          border: 1px solid transparent !important;
-          background: #d9bf77 !important;
-          color: #fff !important; }
-    .btn.btn-white {
-      background: #fff !important;
-      border: 1px solid #fff !important;
-      color: #000000 !important; }
-      .btn.btn-white:hover {
-        border: 1px solid #fff;
-        background: transparent;
-        color: #fff; }
-      .btn.btn-white.btn-outline-white {
-        border: 1px solid #fff;
-        background: transparent;
-        color: #fff; }
-        .btn.btn-white.btn-outline-white:hover {
-          border: 1px solid transparent;
-          background: #fff;
-          color: #fff; } */
-  
 
   .work-category li {
     display: inline-block;
@@ -308,4 +181,7 @@ button:hover {
       color: rgba(0, 0, 0, 0.3); }
     .work-category li.active a {
       color: #d9bf77; }
-  
+
+.names {
+    text-transform: none !important;
+    }
