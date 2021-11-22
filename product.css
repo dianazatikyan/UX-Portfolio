@@ -55,11 +55,12 @@
   transform: translateY(-8px);
       }
 
-section#jumbotron_container {
+section#jumbotron_container a{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    text-decoration: none; 
+    /* margin-bottom: 100px; */
 }
 
 div.jumbotron {

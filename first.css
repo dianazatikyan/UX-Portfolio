@@ -103,7 +103,7 @@ button.btn:hover {
           background: #ff0000;
           opacity: .5;
           width: 50%; }
-          @media (max-width: 767.98px) {
+          @media (max-width: 600px) {  
             .slider-hero .work .img:after {
               width: 100%; } }
       .slider-hero .work .text h2 {
