@@ -7,7 +7,8 @@
     font-family: "Roboto";
     color: rgb(0, 0, 0);
     font-size: 15px;
-    margin: 0; }
+    margin: 0; 
+    cursor: url("/Images/bluecursor.png"), auto;}
   
   input, textarea, select, button {
     font-family: "Roboto";

@@ -78,6 +78,7 @@ div.jumbotron {
     margin-bottom: 2em;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .footer {
@@ -120,3 +121,7 @@ div.jumbotron {
     text-decoration-thickness: 5px;
     }
 .footer a:active { text-decoration: none;}
+
+body {
+    cursor: url("/Images/bluecursor.png"), auto;
+}
