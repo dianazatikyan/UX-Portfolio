@@ -20,6 +20,7 @@ button.btn:hover {
     color: white;
     background-image: linear-gradient(to right, #224AE0 , #DA379F);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    cursor: url("/Images/lightblue.png"), auto !important;
   }
 
 .navigation {
@@ -29,7 +30,7 @@ button.btn:hover {
     width: 100%;
     padding: 3vh;
     z-index: 2;
-    cursor: pointer;
+    cursor: url("/Images/lightblue.png"), auto;
 }
 
 .footer {
@@ -70,6 +71,7 @@ button.btn:hover {
     text-decoration-line: underline;
     text-decoration-color: #224AE0;
     text-decoration-thickness: 5px;
+    cursor: url("/Images/lightblue.png"), auto;
     }
 .footer a:active { text-decoration: none;}
 
@@ -129,7 +131,7 @@ button.btn:hover {
         color: #212529;
         text-align: left;
         background-color: #fff;
-        cursor: url("/Images/bluecursor.png"), auto; }
+        cursor: url("/Images/cursor.png"), auto; }
       
       [tabindex="-1"]:focus:not(:focus-visible) {
         outline: 0 !important; }
@@ -2636,9 +2638,9 @@ button.btn:hover {
               .hero-wrap .slider-text .breadcrumbs span a {
                 color: rgba(255, 255, 255, 0.8); }
                 .hero-wrap .slider-text .breadcrumbs span a:hover, .hero-wrap .slider-text .breadcrumbs span a:focus {
-                  color: #d9bf77; }
+                  color: #224AE0; }
                   .hero-wrap .slider-text .breadcrumbs span a:hover i, .hero-wrap .slider-text .breadcrumbs span a:focus i {
-                    color: #d9bf77; }
+                    color: #224AE0; }
           .hero-wrap .slider-text .bread {
             font-weight: 600;
             color: #fff;
@@ -2707,7 +2709,7 @@ button.btn:hover {
               margin: 4px;
               color: rgba(255, 255, 255, 0.2); }
             .slider-hero .thumbnail li.active a {
-              color: #d9bf77; }
+              color: #224AE0; }
             @media (max-width: 991.98px) {
               .slider-hero .thumbnail li a img {
                 width: 50px; } }
@@ -2725,13 +2727,13 @@ button.btn:hover {
         background: #f7f7f7 !important; }
       
       .bg-primary {
-        background: #d9bf77; }
+        background: #224AE0; }
       
       .bg-black {
         background: #000000; }
       
       .bg-secondary {
-        background: #d9bf77; }
+        background: #224AE0; }
       
       .services {
         padding: 0;
@@ -2814,7 +2816,7 @@ button.btn:hover {
             margin-bottom: 0; }
       
       .aside-stretch {
-        background: #d9bf77; }
+        background: #224AE0; }
         .aside-stretch:after {
           position: absolute;
           top: 0;
@@ -2822,7 +2824,7 @@ button.btn:hover {
           bottom: 0;
           content: '';
           width: 360%;
-          background: #d9bf77; }
+          background: #224AE0; }
         @media (max-width: 767.98px) {
           .aside-stretch {
             background: transparent; }
@@ -2852,7 +2854,7 @@ button.btn:hover {
               /* Firefox 18- */
               color: rgba(0, 0, 0, 0.3) !important; }
             .form-control:focus, .form-control:active {
-              border-color: #d9bf77 !important; }
+              border-color: #224AE0 !important; }
 
       textarea.form-control {
         height: inherit !important; }
@@ -2862,7 +2864,7 @@ button.btn:hover {
         visibility: hidden; }
       
       .bg-primary {
-        background: #d9bf77 !important; }
+        background: #224AE0 !important; }
       
       .bg-darken {
         background: #141b25 !important; }
@@ -2933,7 +2935,7 @@ button.btn:hover {
           .ftco-footer .ftco-footer-widget ul li a {
             color: rgba(255, 255, 255, 0.3); }
             .ftco-footer .ftco-footer-widget ul li a:hover {
-              color: #d9bf77; }
+              color: #224AE0; }
         .ftco-footer .ftco-footer-widget .btn-primary {
           background: #fff !important;
           border: 2px solid #fff !important; }
@@ -2943,9 +2945,9 @@ button.btn:hover {
         .ftco-footer p {
           font-weight: 600; }
         .ftco-footer a {
-          color: #d9bf77; }
+          color: #224AE0; }
           .ftco-footer a:hover {
-            color: #d9bf77; }
+            color: #224AE0; }
         .ftco-footer .ftco-heading-2 {
           font-size: 22px;
           font-weight: 700;
@@ -3017,7 +3019,7 @@ button.btn:hover {
         background-position: bottom center; }
       
       .star {
-        color: #d9bf77; }
+        color: #224AE0; }
       
       @media (max-width: 767.98px) {
         .about-image {
@@ -3098,7 +3100,7 @@ button.btn:hover {
             margin-bottom: 0; }
             .ftco-counter .text p span {
               font-size: 22px;
-              color: #d9bf77; }
+              color: #224AE0; }
         .ftco-counter .icon {
           width: 70px;
           height: 70px;
@@ -3173,4 +3175,7 @@ button.btn:hover {
         animation: loader-dash 1.5s ease-in-out infinite;
         stroke-linecap: round; }
       
+   .sitemap {
+        padding-bottom: 10vh;
+    }
       

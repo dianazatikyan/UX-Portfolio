@@ -49,6 +49,7 @@
         transition-property: transform;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
+        cursor: url("/Images/lightblue.png"), auto;
       }
       .jumbotron:hover, .jumbotron:focus, .jumbotron:active {
  -webkit-transform: translateY(-8px);
@@ -59,12 +60,14 @@ section#jumbotron_container a{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-decoration: none; 
+    text-decoration: none;
+    cursor: url("/Images/cursor.png"), auto; 
     /* margin-bottom: 100px; */
 }
 
 div.jumbotron {
     align-self: center;
+    cursor: url("/Images/cursor.png"), auto;
 }
 .display-4 {
     color: white;
@@ -78,7 +81,7 @@ div.jumbotron {
     margin-bottom: 2em;
     width: 100%;
     display: block;
-    cursor: pointer;
+    cursor: url("/Images/lightblue.png"), auto;
 }
 
 .footer {
@@ -120,8 +123,9 @@ div.jumbotron {
     text-decoration-color: #224AE0;
     text-decoration-thickness: 5px;
     }
+    cursor: url("/Images/lightblue.png"), auto;
 .footer a:active { text-decoration: none;}
 
 body {
-    cursor: url("/Images/bluecursor.png"), auto;
+    cursor: url("/Images/cursor.png"), auto;
 }

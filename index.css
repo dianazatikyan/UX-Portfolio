@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-    cursor: url("/Images/bluecursor.png"), auto;
+    cursor: url("/Images/cursor.png"), auto;
 }
 
 .navigation {
@@ -15,7 +15,7 @@ body{
     background-color: transparent;
     float: left;
     padding: 3vh;
-    cursor: pointer;
+    cursor: url("/Images/lightblue.png"), auto;
 }
 
 .hero {
@@ -79,6 +79,7 @@ a:hover {
     text-decoration-line: underline;
     text-decoration-color: #224AE0;
     text-decoration-thickness: 5px;
+    cursor: url("/Images/lightblue.png"), auto;
     }
 a:active { text-decoration: none; 
 }
@@ -157,5 +158,6 @@ a:active { text-decoration: none;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     text-decoration-color: #D9379E;
+    cursor: url("/Images/lightblue.png"), auto;
   }
 
