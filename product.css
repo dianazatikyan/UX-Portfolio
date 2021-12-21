@@ -122,8 +122,7 @@ div.jumbotron {
     text-decoration-line: underline;
     text-decoration-color: #224AE0;
     text-decoration-thickness: 5px;
-    }
-    cursor: url("/Images/lightblue.png"), auto;
+    cursor: url("/Images/lightblue.png"), auto; }
 .footer a:active { text-decoration: none;}
 
 body {
