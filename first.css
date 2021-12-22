@@ -30,7 +30,10 @@ button.btn:hover {
     width: 100%;
     padding: 3vh;
     z-index: 2;
-    cursor: url("/Images/lightblue.png"), auto;
+}
+
+.logo {
+  cursor: url("/Images/lightblue.png"), auto;
 }
 
 .footer {
@@ -2905,7 +2908,7 @@ button.btn:hover {
       
       
       .ftco-section {
-        padding: 7em 0;
+        padding: 2em 0;
         position: relative;
         width: 100%; }
         @media (max-width: 767.98px) {
@@ -2921,7 +2924,7 @@ button.btn:hover {
       .ftco-bg-dark {
         background: #3c312e; }
       
-      .ftco-footer {
+      /* .ftco-footer {
         font-size: 16px;
         padding: 6em 0 0 0;
         color: rgba(255, 255, 255, 0.5);
@@ -2951,7 +2954,7 @@ button.btn:hover {
         .ftco-footer .ftco-heading-2 {
           font-size: 22px;
           font-weight: 700;
-          color: #fff; }
+          color: #fff; } */
       
       
       .ftco-footer-social li {
@@ -3183,7 +3186,5 @@ button.btn:hover {
         width: 50%;
     }
 
-    /* .affinity {
-      background-image: url(./Images/affinityw.jpg);
-    } */
+
       

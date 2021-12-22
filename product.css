@@ -81,9 +81,10 @@ div.jumbotron {
     margin-bottom: 2em;
     width: 100%;
     display: block;
+}
+.logo {
     cursor: url("/Images/lightblue.png"), auto;
 }
-
 .footer {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
