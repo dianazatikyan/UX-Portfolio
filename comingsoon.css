@@ -6,7 +6,10 @@
     width: 100%;
     padding: 3vh;
     z-index: 2;
-    cursor: url("/Images/lightblue.png"), auto;
+}
+
+.logo {
+  cursor: url("/Images/lightblue.png"), auto;
 }
 
 .footer {
@@ -102,7 +105,7 @@ body {
           content: '';
           z-index: -1;
           background: #ffffff;
-          opacity: 0%;
+          opacity: 100%;
           width: 50%; }
           @media (max-width: 767.98px) {
             .slider-hero .work .img:after {
@@ -110,7 +113,7 @@ body {
       .slider-hero .work .text h2 {
         font-size: 58px;
         font-weight: 700;
-        color: #ffffff;
+        color: #000000;
         line-height: 1.1;
         margin-bottom: 40px; }
         @media (max-width: 991.98px) {
@@ -224,3 +227,22 @@ body {
            background-repeat: no-repeat;
            background-position: center center; }
   
+           body {
+            font-family: "Roboto", Arial, sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+            color: #999999; }
+            body.menu-show {
+              overflow: hidden;
+              position: fixed;
+              height: 100%;
+              width: 100%; }
+    
+          h1, h2, h3, h4, h5,
+          .h1, .h2, .h3, .h4, .h5 {
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 600; }
+    
