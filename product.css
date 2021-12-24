@@ -129,3 +129,11 @@ div.jumbotron {
 body {
     cursor: url("/Images/cursor.png"), auto;
 }
+
+.copyright {
+    content: "\00A9";
+    color: gray;
+    font-size: 10px;
+    margin-left: 100px;
+    padding-bottom: 10vh;
+  }

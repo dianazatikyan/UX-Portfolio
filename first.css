@@ -3186,5 +3186,12 @@ button.btn:hover {
         width: 50%;
     }
 
+    .copyright {
+      content: "\00A9";
+      color: gray;
+      font-size: 10px;
+      margin-left: 100px;
+      padding-bottom: 10vh;
+    }
 
       

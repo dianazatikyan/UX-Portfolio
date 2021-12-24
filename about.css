@@ -5,6 +5,8 @@
     margin-bottom: 2em;
     width: 100%;
     display: block;
+}
+.logo {
     cursor: url("/Images/lightblue.png"), auto;
 }
 
@@ -114,3 +116,10 @@ section.about-info {
 .footer a:active { text-decoration: none; 
 }
 
+.copyright {
+    content: "\00A9";
+    color: gray;
+    font-size: 10px;
+    margin-left: 100px;
+    padding-bottom: 10vh;
+  }
