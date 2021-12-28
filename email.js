@@ -12,7 +12,7 @@ form.addEventListener("submit", (event) => {
           type: 'POST',
           url: 'https://mandrillapp.com/api/1.0/messages/send.json',
           data: {
-            'key': 'YOUR API KEY HERE',
+            'key': '3e604d6948d1e530ae521566d103f0cb-us20',
             'message': {
               'from_email': email,
               'to': [

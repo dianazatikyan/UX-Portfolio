@@ -12,35 +12,37 @@
 			<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 		<link href="contact.css" type="text/css" rel="stylesheet">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="inner">
-				<form id="contact-form" class="contact__form" method="post" action="mail.php">
+				<form action="/swiftmailer_form.php" method="post" id="contact-form">
+					<form method="POST" action="form.php" id="contact-form"></form>
 				<!-- <form id="formEl" action="POST"> -->
 					<h3>Get in touch!</h3>
 					<p>Whether it’s to work together, discuss design or simply say hi, please feel free to send me a message.</p>
 					<label class="form-group">
-						<input type="text" class="form-control"  required>
+						<input name="name" type="text" class="form-control"  required>
 						<span>Your Name</span>
 						<span class="border"></span>
 					</label>
 					<label class="form-group">
-						<input type="text" class="form-control"  required>
+						<input name="email" type="text" class="form-control"  required>
 						<span for="">Your Email</span>
 						<span class="border"></span>
 					</label>
 					<label class="form-group" >
-						<textarea name="" id="" class="form-control" required></textarea>
+						<textarea name="message" class="form-control" required></textarea>
 						<span for="">Your Message</span>
 						<span class="border"></span>
 					</label>
-					<button>Submit 
-						<i class="zmdi zmdi-arrow-right"></i>
-					</button>
+					<button class="btn btn-main"
+					name="submit" type="submit" value="Send" >Submit</button>
+
 				</form>
 			</div>
 		</div>
-		<script src="./email.js"></script>
+		<!-- <script src="./email.js"></script> -->
 	</body>
 </html>
