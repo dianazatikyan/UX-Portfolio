@@ -144,3 +144,63 @@
           box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
           cursor: url("/Images/lightblue.png"), auto;
         }
+
+        @media (max-width: 767px) {
+          h3 {
+            font-size: 28px;
+            margin-bottom: 30px; }
+        
+          p {
+            font-size: 12px;
+            padding: 0;
+            margin-bottom: 20px; }
+        
+          .inner {
+            padding: 27px 20px 37px;
+            border: none;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -ms-box-shadow: none;
+            -o-box-shadow: none;
+            height: 500px;
+            border: 3px solid transparent;
+            border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+            border-image-slice: 1; } 
+
+            .footer {
+              padding: 10px;
+              margin: 0px;
+              box-shadow: 0 -1px 7px rgba(88, 88, 88, 0.5);
+          }
+          
+          .footer ul {
+              list-style-type: none;
+              margin: 0px;
+              padding: 0;
+              font-size: 14px;
+              font-weight: 400;
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              gap: 30px;
+          }
+      
+          .copyright {
+              font-size: 7px;
+              margin-left: 145px;
+              padding-bottom: 8vh;
+            }
+
+          button {
+            border: 1px solid black;
+            width: 80px;
+            height: 30px;
+            margin-top: 30px !important;
+            padding: 7px 14px !important;
+            font-size: 10px !important;
+            border-radius: 50px; 
+          }
+
+          }
+        

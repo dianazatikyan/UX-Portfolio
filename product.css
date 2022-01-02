@@ -138,10 +138,47 @@ body {
     padding-bottom: 10vh;
   }
 
-  @media only screen and (max-width: 800px) {
-    body {
-        background-color: hotpink;
+  @media (max-width: 767px) {
+    div.jumbotron {
+        border-radius: 16px;
+        background-size: contain !important;
+        background-size: cover !important;
+        -moz-background-size: contain;
+        width: 20rem!important;
+        height: 6rem !important;
     }
+
+      .display-4 {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 20px !important;
+    }
+
+    .footer {
+        padding: 10px;
+        margin: 0px;
+        box-shadow: 0 -1px 7px rgba(88, 88, 88, 0.5);
+    }
+    
+    .footer ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .copyright {
+        font-size: 7px;
+        margin-left: 145px;
+        padding-bottom: 8vh;
+      }
+
 
 
 }
