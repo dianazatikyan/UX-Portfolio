@@ -17,6 +17,7 @@ body{
     float: left;
     padding: 3vh;
     cursor: url("/Images/lightblue.png"), auto;
+    width: 50% !important;
 }
 
 .hero {
@@ -39,7 +40,7 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 17pt;
-    padding: 40px;
+    padding: 30px -30px !important;
 }
 
   .footer {
@@ -71,12 +72,12 @@ body{
   .inline-block ul li{
     margin-left: 5vw;
 }
-
+/* 
   .copyright {
       font-size: 7px;
       margin-left: 145px;
       padding-bottom: 8vh;
-    }
+    } */
 
     a:link { text-decoration: none;
         color: black; 
