@@ -23,7 +23,7 @@ body{
 .hero {
     height: 100%;
     width: 100vw;
-    background-image: url("Images/bannermobile.jpg");
+    background-image: url("Images/mobile.gif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,8 +39,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 17pt;
-    padding: 30px -30px !important;
+    font-size: 37pt;
+    /* padding: 30px -30px !important; */
 }
 
   .footer {
