@@ -32,12 +32,11 @@ body{
 
   .hero {
     /* height: 80%; */
-    width: 75%;
+    max-width: 100%;
     background-image: url("Images/mobile.gif");
-    background-attachment: scroll;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: block;
     overflow: visible;
     z-index: -1;
