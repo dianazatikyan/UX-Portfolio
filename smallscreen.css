@@ -31,7 +31,7 @@ body{
   } */
 
   .hero {
-    /* height: 80%; */
+    height: 100%;
     max-width: 100%;
     background-image: url("Images/mobile.gif");
     background-position: center center;
@@ -42,6 +42,7 @@ body{
     z-index: -1;
     margin-left: auto;
     margin-right: auto; 
+    position: absolute;
   }
 
   .heroContents {
