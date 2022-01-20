@@ -21,8 +21,8 @@ body{
 }
 
 .hero {
-    /* height: 100%; */
-    width: 100%;
+    height: 80%;
+    width: 100vh;
     background-image: url("Images/mobile.gif");
     background-attachment: scroll;
     background-position: center;
