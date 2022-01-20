@@ -32,19 +32,16 @@ body{
 
   .hero {
     background-image: url("Images/mobile.gif");
-    margin: 0px auto;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -o-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background: #999;
-    text-align: center;
-    max-width: inherit;
+    width: 100%;
+    min-height: 200px;
+    height:300px;
+    max-height:50%;
+    background-repeat:no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .heroContents {
