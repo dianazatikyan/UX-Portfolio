@@ -15,14 +15,14 @@ body{
     position: fixed;
     background-color: transparent;
     float: left;
-    padding: 3vh;
+    padding: 1vh;
     cursor: url("/Images/lightblue.png"), auto;
-    width: 50% !important;
+    max-width: 50% !important;
 }
 
 .hero {
-    height: 100%;
-    width: 100vw;
+    /* height: 100%; */
+    width: 100%;
     background-image: url("Images/mobile.gif");
     background-attachment: fixed;
     background-position: center;
