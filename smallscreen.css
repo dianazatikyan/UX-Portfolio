@@ -20,7 +20,7 @@ body{
     max-height: 80% !important;
 }
 
-.hero {
+/* .hero {
     height: 80%;
     width: 100vw;
     background-image: url("Images/mobile.gif");
@@ -28,6 +28,21 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+  } */
+
+  .hero {
+    /* height: 80%; */
+    width: 75%;
+    background-image: url("Images/mobile.gif");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    overflow: visible;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto; 
   }
 
   .heroContents {
