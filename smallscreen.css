@@ -31,18 +31,20 @@ body{
   } */
 
   .hero {
-    height: 100%;
-    max-width: 100%;
     background-image: url("Images/mobile.gif");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin: 0px auto;
     display: block;
-    overflow: visible;
-    z-index: -1;
-    margin-left: auto;
-    margin-right: auto; 
     position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #999;
+    text-align: center;
+    max-width: inherit;
   }
 
   .heroContents {
