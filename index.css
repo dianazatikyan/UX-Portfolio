@@ -10,6 +10,9 @@ body{
     cursor: url("/Images/cursor.png"), auto;
 }
 
+p.intro {
+  max-width: 800px;
+}
 .navigation {
     position: fixed;
     background-color: transparent;
@@ -40,7 +43,7 @@ body{
     justify-content: center;
     font-size: 40pt;
     padding: 80px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .footer {

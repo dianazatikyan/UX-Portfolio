@@ -11,26 +11,37 @@ body{
     cursor: url("/Images/cursor.png"), auto;
 }
 
+.box {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+
 .navigation {
     position: fixed;
     background-color: transparent;
     float: left;
     padding: 3vh;
     cursor: url("/Images/lightblue.png"), auto;
-    max-height: 80% !important;
+    max-height: 70% !important;
+    z-index: 999;
 }
 
-/* .hero {
-    height: 80%;
+p.intro {
+  max-width: 200px;
+}
+
+.hero {
+    height: 100%;
     width: 100vw;
-    background-image: url("Images/mobile.gif");
+    background-image: url("Images/tree.jpg");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-  } */
+  }
 
-  .hero {
+  /* .hero {
     background-image: url("Images/mobile.gif");
     width: 100%;
     min-height: 200px;
@@ -42,7 +53,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  } */
 
   .heroContents {
     text-align: center;
@@ -53,7 +64,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 37pt;
+    font-size: 28pt;
     /* padding: 30px -30px !important; */
 }
 
