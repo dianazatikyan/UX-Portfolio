@@ -1,5 +1,5 @@
 
-  *{
+* {
     box-sizing: border-box;
 }
 body{
@@ -27,15 +27,22 @@ body{
     z-index: 999;
 }
 
+.logo {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+
 p.intro {
-  max-width: 200px;
+  width: 290px;
+  margin: 0 0 0 0;
 }
 
 .hero {
     height: 100%;
     width: 100vw;
-    background-image: url("Images/tree.jpg");
-    background-attachment: scroll;
+    background-image: url("Images/mobile.gif");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -56,6 +63,7 @@ p.intro {
   } */
 
   .heroContents {
+    width: 100%;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(255, 255, 255);
@@ -63,8 +71,9 @@ p.intro {
     text-shadow: 1px 1px 1px rgb(49, 49, 49);
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     font-size: 28pt;
+    padding: 0px;
     /* padding: 30px -30px !important; */
 }
 

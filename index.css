@@ -11,7 +11,7 @@ body{
 }
 
 p.intro {
-  max-width: 800px;
+  width: 800px;
 }
 .navigation {
     position: fixed;
@@ -19,6 +19,12 @@ p.intro {
     float: left;
     padding: 3vh;
     cursor: url("/Images/lightblue.png"), auto;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  display: block;
 }
 
 .hero {
