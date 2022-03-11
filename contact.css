@@ -185,20 +185,6 @@
               justify-content: center;
               gap: 30px;
           }
-
-        a:link { text-decoration: none;
-            color: black; 
-        }
-        a:visited { text-decoration: none; 
-            color: black;}
-        a:hover {
-            text-decoration-line: underline;
-            text-decoration-color: #224AE0;
-            text-decoration-thickness: 5px;
-            cursor: url("/Images/lightblue.png"), auto;
-            }
-        a:active { text-decoration: none; 
-        }
       
           .copyright {
               font-size: 7px;
@@ -216,7 +202,20 @@
             border-radius: 50px; 
           }
 
-          }
+        a:link { text-decoration: none;
+            color: black; 
+        }
+        a:visited { text-decoration: none; 
+            color: black;}
+        a:hover {
+            text-decoration-line: underline !important;
+            text-decoration-color: #224AE0 !important;
+            text-decoration-thickness: 5px !important;
+            cursor: url("/Images/lightblue.png"), auto;
+            }
+        a:active { text-decoration: none; 
+        }
+
 
           @-webkit-keyframes hvr-wobble-skew {
             16.65% {
@@ -289,4 +288,5 @@
             text-decoration-color: #224AE0;
               cursor: url("/Images/lightblue.png"), auto;
           }
+        }
         

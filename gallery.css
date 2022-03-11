@@ -109,6 +109,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button
   /* background: linear-gradient( #ccd2ff , #e6ccff); */
   background: linear-gradient( #AEBAFE , #EAB3FC);
   position: relative;
+  cursor: url("/Images/cursor.png"), auto;
 }
 .mood-board .title {
   position: absolute;
@@ -161,6 +162,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button
   width: 100%;
   padding: 3vh;
   z-index: 2;
+  cursor: url("/Images/cursor.png"), auto;
 }
 
 .logo {
@@ -180,6 +182,7 @@ cursor: url("/Images/lightblue.png"), auto;
   padding: 18px;
   margin: 0px;
   box-shadow: 0 -3px 10px rgba(88, 88, 88, 0.5);
+  cursor: url("/Images/cursor.png"), auto;
 }
 
 .inline-block ul li{
