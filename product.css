@@ -1,5 +1,5 @@
 .first {
-    background: url("Images/second.png") no-repeat center center; 
+    background: url("Images/winesteward.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -12,7 +12,7 @@
 }
 
 .second {
-    background: url("Images/third.png") no-repeat center center; 
+    background: url("Images/second.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -25,7 +25,7 @@
 }
 
 .third {
-    background: url("Images/first.png") no-repeat center center; 
+    background: url("Images/calstudentphil.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;

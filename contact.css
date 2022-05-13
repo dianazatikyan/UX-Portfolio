@@ -168,7 +168,7 @@
             border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
             border-image-slice: 1; } 
 
-            .footer {
+            /* .footer {
               padding: 10px;
               margin: 0px;
               box-shadow: 0 -1px 7px rgba(88, 88, 88, 0.5);
@@ -184,7 +184,37 @@
               text-align: center;
               justify-content: center;
               gap: 30px;
-          }
+          } */
+
+          .footer {
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: black;
+            font-weight: lighter;
+            text-decoration: none;
+            padding: 18px;
+            margin: 0px;
+            box-shadow: 0 -3px 10px rgba(88, 88, 88, 0.5);
+        }
+        
+        .inline-block ul li{
+            margin-left: 5vw;
+        }
+        .footer ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 40px;
+        }
       
           .copyright {
               font-size: 7px;
@@ -202,7 +232,7 @@
             border-radius: 50px; 
           }
 
-        a:link { text-decoration: none;
+        /* a:link { text-decoration: none;
             color: black; 
         }
         a:visited { text-decoration: none; 
@@ -214,7 +244,21 @@
             cursor: url("/Images/lightblue.png"), auto;
             }
         a:active { text-decoration: none; 
-        }
+        } */
+
+       a:link { text-decoration: none;
+          color: black; 
+      }
+     a:visited { text-decoration: none; 
+          color: black;}
+     a:hover {
+          text-decoration-line: underline;
+          text-decoration-color: #224AE0;
+          text-decoration-thickness: 5px;
+          cursor: url("/Images/lightblue.png"), auto;
+          }
+     a:active { text-decoration: none; 
+      }
 
 
           @-webkit-keyframes hvr-wobble-skew {
