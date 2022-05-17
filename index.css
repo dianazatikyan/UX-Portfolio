@@ -243,3 +243,52 @@ a:active { text-decoration: none;
     text-decoration-color: #224AE0;
       cursor: url("/Images/lightblue.png"), auto;
   }
+
+  .fa-solid {
+    content:”\00A3″; 
+    font-family: “Font Awesome 5 Free“; 
+    font-weight: 900; }
+
+    .bounce {
+      display: inline-block;
+      position: relative;
+      -moz-animation: bounce 0.5s infinite linear;
+      -o-animation: bounce 0.5s infinite linear;
+      -webkit-animation: bounce 0.5s infinite linear;
+      animation: bounce 0.5s infinite linear;
+    }
+    .fa-angle-double-down {
+      color:white;
+      font-size: 3em;
+      margin: 20px;
+    }
+    @-webkit-keyframes bounce {
+        0% { top: 0; }
+        50% { top: -0.2em; }
+        70% { top: -0.3em; }
+        100% { top: 0; }
+    }
+    @-moz-keyframes bounce {
+        0% { top: 0; }
+        50% { top: -0.2em; }
+        70% { top: -0.3em; }
+        100% { top: 0; }
+    }
+    @-o-keyframes bounce {
+        0% { top: 0; }
+        50% { top: -0.2em; }
+        70% { top: -0.3em; }
+        100% { top: 0; }
+    }
+    @-ms-keyframes bounce {
+        0% { top: 0; }
+        50% { top: -0.2em; }
+        70% { top: -0.3em; }
+        100% { top: 0; }
+    }
+    @keyframes bounce {
+        0% { top: 0; }
+        50% { top: -0.2em; }
+        70% { top: -0.3em; }
+        100% { top: 0; }
+    }
